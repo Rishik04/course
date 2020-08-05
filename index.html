@@ -16,7 +16,7 @@
         <section id="head" class="text-white">
             <img src="stockImage/pexels-kaboompics-com-6342-min.jpg" style="position:absolute;">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark pt-2 fixed-top align-item-start">
+        <nav class="navbar navbar-expand-md navbar-dark pt-2 fixed-top align-item-start">
         <a class="nav-brand" href="#">Company Name</a>
         <button class="navbar-toggler" data-target="#collapse" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
@@ -39,34 +39,93 @@
             </ul>
             </div>
         </nav>
-        <div class="row justify-content-center">
-            <div class="col">
-        <h1 class="h2 text-center mb-5">Start Learning</h1>
-                <form class="example" action="#">
+        <div class="row justify-content-center search">
+            <div class="col text-center">
+        <h1 class="font-weight-light">Start Learning</h1>
+            </div>
+            <div class="col text-center">
+                <form class="example text-left" action="#">
         <input type="text" placeholder="Search..." style="box-sizing: border-box; margin: auto;" class="search">
-                <button type="submit">
-                <i class="fa fa-search"></i>
+                <button type="submit" class="btn btn-raised">
+                <i class="fa fa-search" aria-hidden=true></i>
                 </button>
                 </form>
             </div>
         </div>
+        <div class="col">
+        <div class="row justify-content-center">
+            <h3 class="text-center col-lg-3 col-md-6">
+                <span class="d-block">W</span>
+            <span class="d-inline">Ipsum</span></h3>
+            <h3 class="text-center col-lg-3 col-md-6">
+                <span class="d-block">X</span>
+            <span class="d-inline">Lorem</span></h3>
+            <h3 class="text-center col-lg-3 col-md-6">
+                <span class="d-block">Y</span>
+            <span class="d-inline">Ipsum</span></h3>
+            <h3 class="text-center col-lg-3 col-md-6">
+                <span class="d-block">Z</span>
+            <span class="d-inline">Lorem</span></h3>
+            </div>
+        
+        </div>
         </div>
         </section>
     <section id="content">
-        <div class="container">
+        <div class="container pt-4 pb-4 d-block">
             <h1 class="display-4 text-center">Choose Your Favourite Course</h1>
             <hr class="divider" style="color: grey; width: 70%;">
-        <div class="row mt-4">
-            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
-            <h4 class="fa fa-graduation-cap px-1 size-small">Engineering Courses</h4>
+            <div class="card card-flat">
+              <ul class="nav nav-tabs nav-tabs-full nav-tabs-2" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link withouttripple active" data-toggle="tab" href="#Engineering" role="tab" aria-controls="Engineering" aria-label="Engineering And Technology">
+                      <i class="fa fa-graduation-cap">
+                      </i>
+                      <span class="d-none d-md-inline">Engineering and Technology</span></a>
+                  </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link withouttripple" data-toggle="tab" href="#Placement" role="tab" aria-controls="Placement" aria-label="Placement">
+                      <i class="fa fa-graduation-cap">
+                      </i>
+                      <span class="d-none d-md-inline">Placement</span></a>
+                  </li>
+                </ul>
+        <div class="card-body">
+        <div class="tab-content">
+            <div class="tab-pane fade active show" id="Engineering" role="tabpanel">
+                <div class="row">
+                    <div class="list-group col-md-6">
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+                    </div><div class="list-group col-md-6">
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Computer Science</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 mt-4">
-                <h4 class="fa fa-briefcase px-2">Placements</h4>
+            <div class="tab-pane fade" id="Placement" role="tabpanel">
+                <div class="row">
+                    <div class="list-group col-md-6">
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+                    </div><div class="list-group col-md-6">
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+            <a class="list-group-item list-group-item-action withtripple" href="#">Interview Questions</a>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
-        
-        
+            </div>
+        </div>
         </section>
     <section id="work">
         <div class="container mt-2">
@@ -102,12 +161,14 @@
                 </div>
             <div class="col-lg-6 sm-12 md-6 mt-4 text-center">
                 <h5 class="h4">What Will You Get</h5>
-                <h6 class="h5 fa fa-check-circle px-2 bg-white font-weight-light">Hellooooooooooooooooo</h6>
+                <div class="icon">
+                <h6 class="h5 fa fa-check-circle px-2 font-weight-light">Hellooooooooooooooooo</h6>
                 <h6 class="h5 fa fa-check-circle px-2 bg-white font-weight-light">Hellooooooooooooooooo</h6>
                 <h6 class="h5 fa fa-check-circle px-2 bg-white font-weight-light">Hellooooooooooooooooo</h6>
                 <h6 class="h5 fa fa-check-circle px-2 bg-white font-weight-light">Hellooooooooooooooooo</h6>
                 </div>
                 </div>
+            </div>
              <header>
           <h2 class="font-weight-light text-center pt-4" id="Our-team" data-offset="70">Our Teams</h2>
           <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
