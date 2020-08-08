@@ -18,7 +18,7 @@ body > section:not([id="head"]){
     border-radius: 24px;
 }
 #head .navbar{
-    background: linear-gradient(90deg, rgba(36,0,33,1) 0%, rgba(85,85,125,1) 27%, rgba(100,173,73,1) 56%, rgba(0,255,50,1) 100%);
+    background: linear-gradient(54deg,rgba(145,100,255,1),rgba(139,255,244,1));
     box-shadow: 0 5px 0 0 rgba(85,85,125,.20);
     margin-bottom: 0;
     border: 0;
@@ -29,7 +29,7 @@ body > section:not([id="head"]){
     border-width: 1px !important;
 }
 #head {
-background: linear-gradient(90deg, rgba(36,0,33,1) 0%, rgba(85,85,125,.88) 27%, rgba(100,173,73,.65) 56%, rgba(0,255,50,.44) 100%);
+background: linear-gradient(54deg,rgba(145,100,255,.6),rgba(139,255,244,.4));
 padding-bottom: 0;}
 #head .example input[type=text]{
     float: left;
