@@ -42,7 +42,7 @@ padding-bottom: 0;}
 .example button{
     float: left;
     padding: 7px;
-    width: 7%;
+    width: 20%;
     border: 1px solid orange;
     border-left: none;
     font-size: 17px;
@@ -53,7 +53,8 @@ padding-bottom: 0;}
     background-color: darkorange;
 }
 #head input{
-    
+    font-family: cursive;
+    padding: 10px;
 }
 #head .col{
     margin-top: 15vh;
@@ -62,25 +63,24 @@ padding-bottom: 0;}
 #head .search{
     padding-bottom: 0;
 }
-#content{
-   padding: 7.6rem,0;
-    padding-top: 16vh;
+#content .nav a{
+    color: darkblue;
 }
-#content .nav .nav-tabs li a{
-    padding: 1.5rem,2rem;
-    text-align: center;
-    padding-right: 0px;
+#content .nav{
     border: none;
 }
 #content .nav-link{
     display: block;
-    padding: 20px;
 }
 #content .card{
  border: none;   
 }
-#work{
-    padding: 14vh;
+#content .card-body{
+    padding: 2rem;
+}
+#content .card .list-group-item{
+    border-right: none;
+    border-left: none;
 }
 #work img{
     width:100%;
@@ -88,6 +88,9 @@ padding-bottom: 0;}
 }
 #work img:hover{
 box-shadow: 2px 3px 3px 1px rgba(0,0,0,.22),3px 4px 4px 2px rgba(0,0,0,0.19);
+}
+#work a{
+    text-decoration: none;
 }
 #bottom{
     padding-top: 12vh;
@@ -101,19 +104,24 @@ box-shadow: 2px 3px 3px 1px rgba(0,0,0,.22),3px 4px 4px 2px rgba(0,0,0,0.19);
 #bottom .card:hover >div{
     transform: translateX(0);
 }
+#us {
+padding-bottom: 2rem;
+}
+#us img{
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
 #last{
-    padding-top: 10px;;
     background-color: black;
 }
 #last a{
     color: white;
     text-decoration: none;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    align-content: center;
 }
 footer{
-    background-color: rgba(1,33,27,1);
+    box-shadow: 0 0 0 2px rgba(88,94,0,.4);
 }
 
