@@ -65,30 +65,6 @@
   content: "\2795";
   transform: rotate(45deg);
 }
-body{
-    font-family: 'poppins',sans-serif;
-    text-decoration: none;
-    overflow-x: none;
-}
-body > section:not([id="head"]){
-    background-color: white;
-}
-#head .head-first{
-    width: 100%;
-    height: 90%;
-    z-index: -100;
-    filter: blur(2px);
-        }
-#last a{
-    color: #000;
-    text-decoration: none;
-}
-#last a:hover{color: darkred;}
-footer{
-    box-shadow: 1px 2px 1px 2px rgba(0,0,0,.7);
-}
-
-
 </style>
 </head>
 <body>
@@ -187,45 +163,54 @@ footer{
     </div>
 </div>
     </section>
-            <section id="last">
-            <div class="container text-center">
-                <div class="row mb-5 justify-content-center">
-                    <div class="col-md-4 col-lg-4 col-sm-12">
-                <ul role="listitem">
-                    <li style="list-style-type: none"><a href="#">About Us</a></li>
-                    <li style="list-style-type: none"><a href="#">Contact Us</a></li>        
-                    <li style="list-style-type: none"><a href="#">Articles</a></li>   
-                </ul>
+        <section id="last">
+            <footer class="page-footer mt-4">
+            <div class="container text-center text-md-left">
+                <div class="row pb-3 text-center text-md-left mt-3">
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                        <h5 class="text-uppercase font-weight-bold">About Us</h5>
+                        <p class="h6">We are a notes pickup platform dedicated especially for students. Where in our website, the most detailed and comprehensive notes can be found for everyone, handcrafted by experts.An organization dedicated to a certain mission of providing free downloadable study material for everyone.</p>
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                    <ul>
-                        <li style="list-style-type: none"><a href="#">Privacy Policy</a></li>
-                        <li style="list-style-type: none"><a href="#">Copyright Policy</a></li>
-                        <li style="list-style-type: none"><a href="#">Disclaimer</a></li>
-                        </ul>
-                    
+                    <hr class="w-100 clearfix d-md-none">
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                        <h5 class="text-uppercase font-weight-bold">Useful Links</h5>
+                        <p><a href="#">Privacy Policy</a></p> 
+                        <p><a href="#">Copyright Policy</a></p> 
+                        <p><a href="#">Disclaimer</a></p> 
+                        <p><a href="#">Contact Us</a></p>         
+                        <p><a href="#">Articles</a></p> 
                     </div>
-                    <div class="col-md-4 col-lg-4">
-                        <ul>
-                            <a href="#" class=""><img src="stockImage/icons8-google-play-48.png"></a>
-                            <a href="#" class=""><img src="stockImage/icons8-apple-app-store-48.png"></a>
-                        </ul>
+                    <hr class="w-100 clearfix d-md-none">
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                        <h5 class="text-uppercase font-weight-bold">Contact Us</h5>
+                        <p><a href="#">
+                            <i class="fa fa-phone-volume mr-3"></i>+91 xxxxxxxxxx
+                            </a></p>
+                        <p><a href="#">
+                            <i class="fa fa-envelope mr-3"></i>support@gmail.com
+                            </a></p>
                     </div>
+                    <hr class="w-100 clearfix d-md-none">    
             </div>
             </div>
             <div class="container text-center pt-4">
-                <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <a class="px-4 pt-4" href="#"><img src="stockImage/instagram-sketched.png" style="width: 40px;"></a>
-                    <a class="px-4 pt-4" href="#"><img src="stockImage/facebook.png" style="width: 40px;"></a>
-                    <a class="px-4 pt-4" href="#"><img src="stockImage/twitter.png" style="width: 40px;"></a>
+                <div class="col-md-12">
+                    <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item"><a class="btn btn-floating btn-small rgba-white-slight mx-1" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                        </a></li>
+                    <li class="list-inline-item"><a class="btn btn-floating btn-small rgba-white-slight mx-1" href="#">
+                    <i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li class="list-inline-item"><a class="btn btn-floating btn-small rgba-white-slight mx-1" href="#">
+                    <i class="fab fa-instagram"></i>
+                        </a></li>
+                    </ul>
                     </div>
                 </div>
-            </div>
-            <footer class="footer">
-            <div class="container">
-                <p class="text-darkred text-center h6 mt-5 py pt-2">© Copyright Reserved 2020|Made By Rishik</p>
-                <div class="text-center">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <hr class="w-100 clearfix">    
+                    <div class="container text-center pt-2 bottom-sec">
+                <p class="text-darkred">© Copyright Reserved 2020|Made By <strong>Rishik</strong></p>
                 </div>
             </footer>
         </section>
