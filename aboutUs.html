@@ -14,9 +14,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Notes Pickup</title>
     <link rel="icon" type="img/gif" href="stockImage/CenteredLOGOn15.png" sizes="16x16">
-    </head>
-    <body>
-        <section id="head" class="text-white">
+    <style>
+         .body-content{
+            background-repeat: no-repeat;
+            background-size: 100vw auto;
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background: rgb(255,67,67);
+            color: antiquewhite;
+             z-index: 100;
+        }
+
+        .container .row {
+            height: auto;
+            width: auto;
+        }
+
+        .h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-top: 1.7em;
+            margin-bottom: 1.5em;
+        }
+
+        .container .row .content {
+            font-size: 1.5em;
+            line-height: 200%;
+            text-shadow: 0px 0px 2px black;
+            text-align: justify;
+            text-indent: 2em;
+        }
+
+        .container .row strong {
+            font-size: 1.75em;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="head" class="text-white">
             <img class="head-first" src="stockImage/pexels-kaboompics-com-6342-min.jpg" style="position:absolute;">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark pt-2 fixed-top align-item-start">
@@ -43,37 +79,41 @@
                 <h1><span style="color: rgb(255,67,67)">Notes</span> <span style="color: rgb(255,122,143)">Pickup</span></h1>
             </div>
         </div>
-            <div class="justify-content-center">
+        <div class="justify-content-center">
                 <img src="stockImage/1595432248525_Logo%203.png" style="width: 40%; display: block; margin-left: auto; margin-right: auto;">
             </div>
         </div>
-            <div class="container pt-4">
-                <div class="row justify-content-center">
-                    <form role="form" class="col-md-10 go-right">
-                        <h2 class="text-center" style="font-size: 50px;"><b>Feedback</b></h2>
-                        <p class="text-center">We welcome for your feedback and we will try to implement it into our website.</p>
-                        <div class="form-group">
-                            <input id="name" name="name" type="text" class="form-control" required placeholder="Name..">
-                            <label for="name">Your Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input id="email" name="email" type="email" class="form-control" required placeholder="Someone@someone.com">
-                            <label for="email">Email Address</label>
-                        </div>
-                        <div class="form-group">
-                            <input id="phone" name="phone" type="tel" class="form-control" required>
-                            <label for="phone">Primary Phone</label>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="phone" class="form-control" style="height: 150px" required placeholder="Message.."></textarea>
-                            <label for="message">Message</label>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-danger">Submit</button>
-                        </div>
-                    </form>
-                </div>
+    <section id="aboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="h1  text-center">About Us</p>
             </div>
+            <div class="col-12 body-content pt-4 mb-4">
+                <p class="content">We are a notes pickup platform dedicated especially for students. Where in our
+                    website, the most detailed and comprehensive notes can be found for everyone, handcrafted by
+                    experts.An organization dedicated to a certain mission of providing free downloadable study material
+                    for everyone.
+                </p>
+                <p class="content"> Notes pickup finds the most detailed and comprehensive notes for everyone the reason being, ‘clearer
+                    concepts lead to higher scores.’ We offer what you may have missed during your valuable lectures.You
+                    can choose from over 20,000 notes, all curated by experts in their respective fields. Notes pickup
+                    supplies students with best quality notes from all the streams with a staggering record of providing
+                    a barrage of free learning options to students at various levels. From subjects like Behavioral
+                    Psychology to Information Technology. It is a site which is absolutely free for all the categories
+                    of students.
+                </p>
+                <p class="content"> Notes Pickup is a venture to open up vistas of knowledge, with success in focus. A great place to
+                    learn, it is a store house of precise and concise quality notes. Ensuring nothing less than
+                    proficiency, Notes Pickup makes information easily accessible at no cost. Also, looks forward to the
+                    enhancement of individual learners. Hence, it's high time to erase the word 'impossible' and dare to
+                    be the best with Notes Pickup.
+                </p>
+                <strong>Access notes for free and you can employ them to make your study effective!</strong>
+            </div>
+        </div>
+    </div>
+        </section>
     </section>
             <section id="last">
             <footer class="page-footer mt-4">
@@ -128,15 +168,10 @@
                 </div>
             </footer>
         </section>
-    <!-- wow -->
-    <script src="wow/wow.min.js"></script>
-    <script src="wow/wow-activate.js"></script>  
-      
-      
-    <!-- Owow fadeInLeftptional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
