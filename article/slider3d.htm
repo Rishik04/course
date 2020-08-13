@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider</title>
+	<link rel="stylesheet" type="text/css" href="slider3d.css">
+</head>
+<body>
+	<div class="card active">
+		<div class="sliderimg">
+			
+		</div>
+		<div class="content">
+			<h3 style="word-spacing: 5px;font-family: sans-serif;">See Yourself Winning</h3>
+			<p style="word-spacing: 4px;font-family: verdana;">To well explain the truth that the secret behind every single success is a strong purpose, its really interesting to see how Socrates gave insight to a young man who approached him to fing the key to success.</p>
+			<sub style="word-spacing: 2px;font-family: monospace;font-style: bold;">Dawn Mariat Mathew</sub>
+		</div>
+	</div>
+	<div class="card">
+		<div class="sliderimg">
+			
+		</div>
+		<div class="content">
+			<h3 style="word-spacing: 5px;font-family: sans-serif;">Effective ways to Cramp up for an exam!</h3>
+			<p style="word-spacing: 4px;font-family: verdana;">Gulping up everything isn't the best way to stydy for any exam, so before we begin, if you've a big chunk of time then I would suggest you not to cram up. If not then let's jump straight into what you can do..</p>
+			<sub style="word-spacing: 2px;font-family: monospace;font-style: bold;">Tanmay Tiwari</sub>
+		</div>
+	</div>
+	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("card");
+  var dots = document.getElementsByClassName("card");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
