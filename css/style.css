@@ -302,7 +302,7 @@ blockquote::after {
 }
 
 .ct-footer-post .inner-right a:hover {
-    color: darkturquoise !important;
+    color: black !important;
 }
 
 #last a {
@@ -311,7 +311,7 @@ blockquote::after {
 }
 
 #last a:hover {
-    color: darkturquoise;
+    color: white;
 }
 
 /*media query*/
