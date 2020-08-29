@@ -99,12 +99,13 @@ body > section:not([id="head"]) {
     max-width: 100%;
     width: 200px;
     height: 200px;
-    border-radius: 0;
+    border-radius: 5px;
     background: linear-gradient(20deg, #ef404c, #faae79, #f4794f);
     justify-content: center;
     line-height: 1.2rem;
     display: inline-block;
     border: none;
+    transition: .5s;
 }
 #course .card:hover{
     box-shadow: 0 4px 3px rgba(0,0,0,.2);
