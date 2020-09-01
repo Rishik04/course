@@ -217,28 +217,31 @@ blockquote {
 }
 
 blockquote p {
-    font-style: italic;
     display: inline;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Nunito',sans-serif;
+    font-style: italic;
+    font-weight: 500;
 }
 
 blockquote::before {
     color: #ccc;
     content: open-quote;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
+    font-family: serif !important;
 }
 
 blockquote::after {
     color: #ccc;
     content: close-quote;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 0.1em;
     margin-left: 0.25em;
     vertical-align: -0.5em;
+    font-family: serif !important;
 }
 
 #testimonial a {
