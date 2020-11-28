@@ -1,252 +1,372 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!-- Req meta tag -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/e32d5f4f68.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/form.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e32d5f4f68.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
-        #head1 .h2,h2 {
-            margin-top: 100px;
-        }
-        #head1 input{
-               box-shadow: inset 0px 2px 3px rgba(0,0,0,.2);
-               height: 50px;
-               outline: none;
-               border: none;
-        }
+      #head1 .h2,
+      h2 {
+        margin-top: 100px;
+      }
+      #head1 input {
+        box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+        height: 50px;
+        outline: none;
+        border: none;
+      }
 
-        #head1 .center {
-            margin: auto;
-        }
+      #head1 .center {
+        margin: auto;
+      }
 
-        body {
-            background-color: #f5f5f5;}
+      body {
+        background-color: #f5f5f5;
+      }
 
-        #head1 {
-            padding-bottom: 10vh;
-            margin: 15vh 0;
-            background-color: #f5f5f5;
-        }
-        #head{
-            background-image: none;
-        }
+      #head1 {
+        padding-bottom: 10vh;
+        margin: 15vh 0;
+        background-color: #f5f5f5;
+      }
+      #head {
+        background-image: none;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="head">
-        <nav class="navbar navbar-expand-md navbar-dark pt-2 fixed-top align-item-start">
-            <a class="nav-brand text-dark h4" href="index.html" style="text-decoration: none;">Notes Pickup
-                <img src="stockImage/CenteredLOGOn15.png" style="width: 40px;">
-            </a>
-            <button class="navbar-toggler" data-target="#collapse" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0" id="collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="Services.html">Services</a></li>
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="articleTry.html">Article</a></li>
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="internship.html">Internship</a></li>
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="faqs.html">FAQ</a></li>
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="feedback.html">FeedBack</a></li>
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="#last">Contact Us</a></li>
-                    <li class="nav-item ml-4"><a class="nav-link px-2 text-dark" href="aboutUs.html">About Us</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav
+        class="navbar navbar-expand-md navbar-dark pt-2 fixed-top align-item-start"
+      >
+        <a
+          class="nav-brand text-dark h4"
+          href="index.html"
+          style="text-decoration: none"
+          >Notes Pickup
+          <img src="stockImage/CenteredLOGOn15.png" style="width: 40px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-target="#collapse"
+          data-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="Services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="articleTry.html"
+                >Article</a
+              >
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="internship.html"
+                >Internship</a
+              >
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="faqs.html">FAQ</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="feedback.html"
+                >FeedBack</a
+              >
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="#last">Contact Us</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link px-2 text-dark" href="aboutUs.html"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </section>
-    
+
     <section id="head1" class="text-black">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h1 class="text-center font-weight-bold my-4">Apply for Internship</h1>
-                    <form role="form" class="col-md-10 go-right">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input id="name" name="name" type="text" class="form-control" placeholder="Enter Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input id="email" name="email" type="email" class="form-control" placeholder="Enter Email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Primary Phone</label>
-                            <input id="phone" name="phone" type="tel" class="form-control" placeholder="Enter Phone Number" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="Resume">Resume Google drive link</label>
-                            <input id="Resume" name="Resume" type="text" class="form-control" placeholder="Share Resume link" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="Designation">Designation</label>
-                            <input id="Designation" name="Designation" type="text" class="form-control" placeholder="Enter designation">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="text-center font-weight-bold my-4">
+            Apply for Internship
+          </h1>
+          <form role="form" class="col-md-10 go-right" id="form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                class="form-control"
+                placeholder="Enter Name"
+                required
+              />
             </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                class="form-control"
+                placeholder="Enter Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Primary Phone</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                class="form-control"
+                placeholder="Enter Phone Number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="Resume">Resume Google drive link</label>
+              <input
+                id="Resume"
+                name="Resume"
+                type="text"
+                class="form-control"
+                placeholder="Share Resume link"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="Designation">Designation</label>
+              <input
+                id="Designation"
+                name="Designation"
+                type="text"
+                class="form-control"
+                placeholder="Enter designation"
+              />
+            </div>
+            <div class="form-group">
+              <button type="submit" id="formBtn" class="btn btn-primary">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
     <section id="last">
-        <footer class="ct-footer">
-
-            <div class="container-fluid">
-                <form name="contentForm" enctype="multipart/form-data" method="post" action="">
-                    <div class="ct-footer-pre text-center">
-                        <div class="inner">
-                            <span>Join NotesPickUp to receive updates, news & events!</span>
-                        </div>
-                        <div class="inner">
-                            <div class="form-group">
-                                <input name="formfields[nl_email]" id="nl_email" class="validate[required]" placeholder="Enter your email address" type="text" value=""> <label for="nl_email" class="sr-only">Email Address</label> <button type="submit" class="btn btn-motive">Join</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <ul class="ct-footer-list text-center-sm list-unstyled">
-                    <li>
-                        <h2 class="ct-footer-list-header">Learn More</h2>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="">Company</a>
-                            </li>
-                            <li>
-                                <a href="">Clients</a>
-                            </li>
-                            <li>
-                                <a href="">News</a>
-                            </li>
-                            <li>
-                                <a href="">Careers</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="ct-footer-list-header">Services</h2>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="">Design</a>
-                            </li>
-                            <li>
-                                <a href="">Marketing</a>
-                            </li>
-                            <li>
-                                <a href="">Sales</a>
-                            </li>
-                            <li>
-                                <a href="">Programming</a>
-                            </li>
-                            <li>
-                                <a href="">Support</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="ct-footer-list-header">The Industry</h2>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="">Thought Leadership</a>
-                            </li>
-                            <li>
-                                <a href="">Webinars</a>
-                            </li>
-                            <li>
-                                <a href="">Events</a>
-                            </li>
-                            <li>
-                                <a href="">Sponsorships</a>
-                            </li>
-                            <li>
-                                <a href="">Advisors</a>
-                            </li>
-                            <li>
-                                <a href="">Training Program</a>
-                            </li>
-                            <li>
-                                <a href="">Activities & Campaigns</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="ct-footer-list-header">About</h2>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="">Our Board</a>
-                            </li>
-                            <li>
-                                <a href="">Our Staff</a>
-                            </li>
-                            <li>
-                                <a href="">Contact Us</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="ct-footer-list-header">Public Relations</h2>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="">NotesPickUp Blog</a>
-                            </li>
-                            <li>
-                                <a href="">Hackathons</a>
-                            </li>
-                            <li>
-                                <a href="">Videos</a>
-                            </li>
-                            <li>
-                                <a href="">News Releases</a>
-                            </li>
-                            <li>
-                                <a href="">Newsletters</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="ct-footer-meta mt-4">
-                    <ul class="ct-socials list-unstyled d-flex justify-content-center">
-                        <li>
-                            <a href="" target="_blank"><i class="fab fa-facebook-f px-2"></i></a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"><i class="fab fa-twitter px-2"></i></a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"><i class="fab fa-youtube px-2"></i></a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"><i class="fab fa-instagram px-2"></i></a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"><i class="fab fa-pinterest px-2"></i></a>
-                        </li>
-                    </ul>
+      <footer class="ct-footer">
+        <div class="container-fluid">
+          <form
+            name="contentForm"
+            enctype="multipart/form-data"
+            method="post"
+            action=""
+          >
+            <div class="ct-footer-pre text-center">
+              <div class="inner">
+                <span>Join NotesPickUp to receive updates, news & events!</span>
+              </div>
+              <div class="inner">
+                <div class="form-group">
+                  <input
+                    name="formfields[nl_email]"
+                    id="nl_email"
+                    class="validate[required]"
+                    placeholder="Enter your email address"
+                    type="text"
+                    value=""
+                  />
+                  <label for="nl_email" class="sr-only">Email Address</label>
+                  <button type="submit" class="btn btn-motive">Join</button>
                 </div>
+              </div>
             </div>
-            <div class="ct-footer-post">
-                <div class="container-fluid">
-                    <div class="inner-right">
-                        <p>Copyright © 2020 NotesPickUp&nbsp;<a href="">Privacy Policy</a></p>
-                    </div>
-                </div>
+          </form>
+          <ul class="ct-footer-list text-center-sm list-unstyled">
+            <li>
+              <h2 class="ct-footer-list-header">Learn More</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">Company</a>
+                </li>
+                <li>
+                  <a href="">Clients</a>
+                </li>
+                <li>
+                  <a href="">News</a>
+                </li>
+                <li>
+                  <a href="">Careers</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="ct-footer-list-header">Services</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">Design</a>
+                </li>
+                <li>
+                  <a href="">Marketing</a>
+                </li>
+                <li>
+                  <a href="">Sales</a>
+                </li>
+                <li>
+                  <a href="">Programming</a>
+                </li>
+                <li>
+                  <a href="">Support</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="ct-footer-list-header">The Industry</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">Thought Leadership</a>
+                </li>
+                <li>
+                  <a href="">Webinars</a>
+                </li>
+                <li>
+                  <a href="">Events</a>
+                </li>
+                <li>
+                  <a href="">Sponsorships</a>
+                </li>
+                <li>
+                  <a href="">Advisors</a>
+                </li>
+                <li>
+                  <a href="">Training Program</a>
+                </li>
+                <li>
+                  <a href="">Activities & Campaigns</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="ct-footer-list-header">About</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">FAQ</a>
+                </li>
+                <li>
+                  <a href="">Our Board</a>
+                </li>
+                <li>
+                  <a href="">Our Staff</a>
+                </li>
+                <li>
+                  <a href="">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="ct-footer-list-header">Public Relations</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">NotesPickUp Blog</a>
+                </li>
+                <li>
+                  <a href="">Hackathons</a>
+                </li>
+                <li>
+                  <a href="">Videos</a>
+                </li>
+                <li>
+                  <a href="">News Releases</a>
+                </li>
+                <li>
+                  <a href="">Newsletters</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="ct-footer-meta mt-4">
+            <ul class="ct-socials list-unstyled d-flex justify-content-center">
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-facebook-f px-2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-twitter px-2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-youtube px-2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-instagram px-2"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><i class="fab fa-pinterest px-2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="ct-footer-post">
+          <div class="container-fluid">
+            <div class="inner-right">
+              <p>
+                Copyright © 2020 NotesPickUp&nbsp;<a href="">Privacy Policy</a>
+              </p>
             </div>
-        </footer>
+          </div>
+        </div>
+      </footer>
     </section>
-    
+
     <!--        bootstrap scripts-->
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body></html>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
